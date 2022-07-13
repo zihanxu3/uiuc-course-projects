@@ -1,0 +1,112 @@
+$date
+	Thu Feb 13 10:46:31 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_test $end
+$var wire 1 ! writeenable $end
+$var wire 1 " rd_src $end
+$var wire 1 # except $end
+$var wire 2 $ alu_src2 [1:0] $end
+$var wire 3 % alu_op [2:0] $end
+$var reg 6 & funct [5:0] $end
+$var reg 6 ' opcode [5:0] $end
+$scope module decoder $end
+$var wire 1 ( add $end
+$var wire 1 ) addu $end
+$var wire 1 * and_ $end
+$var wire 6 + funct [5:0] $end
+$var wire 1 , nor_ $end
+$var wire 6 - opcode [5:0] $end
+$var wire 1 . or_ $end
+$var wire 1 " rd_src $end
+$var wire 1 / sub $end
+$var wire 1 0 xor_ $end
+$var wire 1 1 xor_i $end
+$var wire 1 ! writeenable $end
+$var wire 1 2 or_i $end
+$var wire 1 # except $end
+$var wire 1 3 and_i $end
+$var wire 2 4 alu_src2 [1:0] $end
+$var wire 3 5 alu_op [2:0] $end
+$var wire 1 6 addui $end
+$var wire 1 7 addi $end
+$var wire 1 8 I_type $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+08
+07
+06
+b10 5
+b0 4
+03
+02
+01
+00
+0/
+0.
+b0 -
+0,
+b100000 +
+0*
+0)
+1(
+b0 '
+b100000 &
+b10 %
+b0 $
+0#
+0"
+1!
+$end
+#10
+b11 %
+b11 5
+0(
+1/
+b100010 &
+b100010 +
+#20
+b101 %
+b101 5
+0/
+1.
+b100101 &
+b100101 +
+#30
+1!
+0#
+b100 %
+b100 5
+1*
+0.
+b100100 &
+b100100 +
+#40
+b10 %
+b10 5
+0*
+b1 $
+b1 4
+1"
+18
+17
+b1000 '
+b1000 -
+#50
+b100 %
+b100 5
+b10 $
+b10 4
+07
+13
+b1100 '
+b1100 -
+#60

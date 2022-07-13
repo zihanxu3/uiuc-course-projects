@@ -1,0 +1,1 @@
+/home/zihanxu3/cs233git/Lab5/full_machine.v

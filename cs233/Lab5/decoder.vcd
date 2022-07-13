@@ -1,0 +1,221 @@
+$date
+	Thu Feb 20 19:39:54 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module decoder_test $end
+$var wire 1 ! writeenable $end
+$var wire 1 " word_we $end
+$var wire 1 # slt $end
+$var wire 1 $ rd_src $end
+$var wire 1 % mem_read $end
+$var wire 1 & lui $end
+$var wire 1 ' except $end
+$var wire 2 ( control_type [1:0] $end
+$var wire 1 ) byte_we $end
+$var wire 1 * byte_load $end
+$var wire 2 + alu_src2 [1:0] $end
+$var wire 3 , alu_op [2:0] $end
+$var wire 1 - addm $end
+$var reg 6 . funct [5:0] $end
+$var reg 6 / opcode [5:0] $end
+$var reg 1 0 zero $end
+$scope module decoder $end
+$var wire 1 1 add $end
+$var wire 1 2 addu $end
+$var wire 1 3 and_ $end
+$var wire 1 * byte_load $end
+$var wire 1 ) byte_we $end
+$var wire 1 ' except $end
+$var wire 6 4 funct [5:0] $end
+$var wire 1 5 jr $end
+$var wire 1 & lui $end
+$var wire 1 % mem_read $end
+$var wire 1 6 nor_ $end
+$var wire 6 7 opcode [5:0] $end
+$var wire 1 8 or_ $end
+$var wire 1 $ rd_src $end
+$var wire 1 # slt $end
+$var wire 1 9 slt_ $end
+$var wire 1 : sub $end
+$var wire 1 " word_we $end
+$var wire 1 ! writeenable $end
+$var wire 1 ; xor_ $end
+$var wire 1 0 zero $end
+$var wire 1 < xor_i $end
+$var wire 1 = sw $end
+$var wire 1 > sb $end
+$var wire 1 ? or_i $end
+$var wire 1 @ lw $end
+$var wire 1 A lui_ $end
+$var wire 1 B lbu $end
+$var wire 1 C j $end
+$var wire 2 D control_type [1:0] $end
+$var wire 1 E bne $end
+$var wire 1 F beq $end
+$var wire 1 G and_i $end
+$var wire 2 H alu_src2 [1:0] $end
+$var wire 3 I alu_op [2:0] $end
+$var wire 1 J addui $end
+$var wire 1 - addm $end
+$var wire 1 K addi $end
+$var wire 1 L I_type $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0L
+0K
+0J
+b10 I
+b0 H
+0G
+0F
+0E
+b0 D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+b0 7
+06
+05
+b100000 4
+03
+02
+11
+00
+b0 /
+b100000 .
+0-
+b10 ,
+b0 +
+0*
+0)
+b0 (
+0'
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#10
+b11 ,
+b11 I
+01
+1:
+b100010 .
+b100010 4
+#20
+0!
+0:
+1L
+1F
+b100 /
+b100 7
+#30
+b1 (
+b1 D
+10
+#40
+b0 ,
+b0 I
+b10 (
+b10 D
+0F
+1C
+b10 /
+b10 7
+#50
+15
+b11 (
+b11 D
+b1000 .
+b1000 4
+0L
+0C
+b0 /
+b0 7
+#60
+1!
+b0 (
+b0 D
+b11 ,
+b11 I
+05
+1#
+19
+b101010 .
+b101010 4
+#70
+b1 +
+b1 H
+b10 ,
+b10 I
+1%
+1$
+0#
+09
+1L
+1@
+b100011 /
+b100011 7
+#80
+0@
+1*
+1B
+b100100 /
+b100100 7
+#90
+0!
+0%
+0$
+0*
+0B
+1"
+1=
+b101011 /
+b101011 7
+#100
+0"
+0=
+1)
+1>
+b101000 /
+b101000 7
+#110
+b0 +
+b0 H
+1!
+1%
+0)
+0>
+1-
+b101100 /
+b101100 7
+#120
+0'
+0!
+0%
+b11 ,
+b11 I
+1E
+0-
+b101 /
+b101 7
+#130
